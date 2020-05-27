@@ -158,5 +158,11 @@ namespace QLBVMB
             PhieuChi frm = new PhieuChi(_manv, bllNV.Get_tenNV(_manv));
             frm.ShowDialog();
         }
+
+        private void nhậpLịchChuyếnBayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NhanLichChuyenBay frm = new NhanLichChuyenBay();
+            frm.ShowDialog();
+        }
     }
 }
