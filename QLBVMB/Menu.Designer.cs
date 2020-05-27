@@ -48,6 +48,7 @@
             this.label_hello = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.nhậpLịchChuyếnBayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip_menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +65,8 @@
             this.quảnLýNhânViênToolStripMenuItem,
             this.quảnLíPhiếuChiToolStripMenuItem,
             this.báoCáoDoanhThuNămToolStripMenuItem,
-            this.báoCáoDoanhThuThángChuyếnBayToolStripMenuItem});
+            this.báoCáoDoanhThuThángChuyếnBayToolStripMenuItem,
+            this.nhậpLịchChuyếnBayToolStripMenuItem});
             this.menuStrip_menu.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
             this.menuStrip_menu.Location = new System.Drawing.Point(399, 181);
             this.menuStrip_menu.Name = "menuStrip_menu";
@@ -124,7 +126,7 @@
             // label_time
             // 
             this.label_time.BackColor = System.Drawing.Color.Transparent;
-            this.label_time.Font = new System.Drawing.Font("DS-Digital", 99.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 99.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_time.ForeColor = System.Drawing.Color.LightCyan;
             this.label_time.Location = new System.Drawing.Point(12, 91);
             this.label_time.Name = "label_time";
@@ -136,18 +138,18 @@
             // 
             this.label_time2.AutoSize = true;
             this.label_time2.BackColor = System.Drawing.Color.Transparent;
-            this.label_time2.Font = new System.Drawing.Font("DS-Digital", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_time2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_time2.ForeColor = System.Drawing.Color.LightCyan;
             this.label_time2.Location = new System.Drawing.Point(136, 34);
             this.label_time2.Name = "label_time2";
-            this.label_time2.Size = new System.Drawing.Size(68, 47);
+            this.label_time2.Size = new System.Drawing.Size(78, 55);
             this.label_time2.TabIndex = 4;
             this.label_time2.Text = "22";
             // 
             // label_date
             // 
             this.label_date.BackColor = System.Drawing.Color.Transparent;
-            this.label_date.Font = new System.Drawing.Font("DS-Digital", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_date.ForeColor = System.Drawing.Color.LightCyan;
             this.label_date.Location = new System.Drawing.Point(602, 551);
             this.label_date.Name = "label_date";
@@ -158,7 +160,7 @@
             // label_day
             // 
             this.label_day.BackColor = System.Drawing.Color.Transparent;
-            this.label_day.Font = new System.Drawing.Font("DS-Digital", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_day.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_day.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.label_day.Location = new System.Drawing.Point(13, 245);
             this.label_day.Name = "label_day";
@@ -206,7 +208,7 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("DS-Digital", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(413, 582);
             this.label2.Name = "label2";
@@ -255,6 +257,14 @@
             this.label3.Size = new System.Drawing.Size(368, 89);
             this.label3.TabIndex = 17;
             this.label3.Text = "Menu";
+            // 
+            // nhậpLịchChuyếnBayToolStripMenuItem
+            // 
+            this.nhậpLịchChuyếnBayToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold);
+            this.nhậpLịchChuyếnBayToolStripMenuItem.Name = "nhậpLịchChuyếnBayToolStripMenuItem";
+            this.nhậpLịchChuyếnBayToolStripMenuItem.Size = new System.Drawing.Size(496, 35);
+            this.nhậpLịchChuyếnBayToolStripMenuItem.Text = "Nhận lịch chuyến bay";
+            this.nhậpLịchChuyếnBayToolStripMenuItem.Click += new System.EventHandler(this.nhậpLịchChuyếnBayToolStripMenuItem_Click);
             // 
             // Menu
             // 
@@ -306,6 +316,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem quảnLíPhiếuChiToolStripMenuItem;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripMenuItem nhậpLịchChuyếnBayToolStripMenuItem;
     }
 }
 
